@@ -152,7 +152,7 @@ public class Parser {
     // DECLARATION
     // ========================
     private void Declaration() {
-    tokens.get(i++); // consume INT/FLOAT/CHAR
+    tokens.get(i++); // INT/FLOAT/CHAR
 
     if (!check(TokenType.IDENT)) {
         unexpected();
